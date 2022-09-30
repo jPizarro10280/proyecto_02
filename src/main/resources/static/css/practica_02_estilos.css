@@ -1,0 +1,92 @@
+/*quita los margenes de todos los elementos*/
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.header {
+  background-color: rgb(134, 26, 26);
+  height: 100px;
+  position: fixed;
+  width: 100%;
+}
+
+.nav {
+  display: flex; /*indica que nav es un elemento flexible*/
+  justify-content: space-between;
+  margin: 0 auto; /* arriba/abajo  izq/der | auto centra el elemento en su contenedor*/
+}
+
+.nav-link {
+  color: whitesmoke;
+  text-decoration: none; /*quita el subrayado de link*/
+  font-size: 30px;
+  padding: 0 50px;
+  line-height: 100px; /*establece altura | es como un interlineado*/
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none; /*quita el bullet de la lista*/
+  margin-right: 50px;
+}
+
+.nav-menu-item {
+  font-size: 18px;
+  margin: 0 10px;
+  line-height: 100px;
+}
+.nav-menu-link {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border-style: solid; /*muestra el borde*/
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.nav-menu-link:hover {
+  background-color: antiquewhite;
+  color: rgb(134, 26, 26);
+  transition: 0.5s;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.card button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: rgb(134, 26, 26);
+  color: antiquewhite;
+}
+.card {
+  width: 250px;
+  height: 290px;
+  padding: 5px;
+  border-style: solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(155, 147, 38);
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+  justify-items: center;
+}
