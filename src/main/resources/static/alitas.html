@@ -5,48 +5,51 @@
     <title>Las Burgas</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/practica_02_estilos.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header class="header">
+      <nav class="nav">
+        <a class="logo nav-link" href="index.html">Las Burgas | Alitas</a>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="hamburguesas.html" class="nav-menu-link">Hamburguesas</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="Alitas.html" class="nav-menu-link">Alitas</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="Acompanamientos.html" class="nav-menu-link"
+              >Acompanamientos</a
+            >
+          </li>
+          <li class="nav-menu-item">
+            <a href="Refrescos.html" class="nav-menu-link">Refrescos</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="Postres.html" class="nav-menu-link">Postres</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <section class="principal">
-      <div class="card">
-        <header class="card-header">
-          <h2 class="header-name">La Clasica</h2>
-          <p class="header-precio">3100</p>
-          <figure><img src="img/hamburguesa_clasica.jpg" alt="" /></figure>
-          <button></button>
-        </header>
-      </div>
-      <div class="card">
-        <header class="card-header">
-          <h2 class="header-name"></h2>
-          <p class="header-precio"></p>
-          <figure><img src="" alt="" /></figure>
-          <button></button>
-        </header>
-      </div>
-      <div class="card">
-        <header class="card-header">
-          <h2 class="header-name"></h2>
-          <p class="header-precio"></p>
-          <figure><img src="" alt="" /></figure>
-          <button></button>
-        </header>
-      </div>
-      <div class="card">
-        <header class="card-header">
-          <h2 class="header-name"></h2>
-          <p class="header-precio"></p>
-          <figure><img src="" alt="" /></figure>
-          <button></button>
-        </header>
-      </div>
-      <div class="card">
-        <header class="card-header">
-          <h2 class="header-name"></h2>
-          <p class="header-precio"></p>
-          <figure><img src="" alt="" /></figure>
-          <button></button>
-        </header>
+      <div class="cards-container">
+        <div class="card">
+          <header class="card-header">
+            <h2 class="header-name">Alitas</h2>
+            <p class="header-precio">4500</p>
+          </header>
+          <figure><img src="img/alitas.jpg" alt="" /></figure>
+          <a href="alitas_info.html"><button>Agregar al Pedido</button></a>
+        </div>
+        <div class="card">
+          <header class="card-header">
+            <h2 class="header-name">Boneless</h2>
+            <p class="header-precio">5000</p>
+          </header>
+          <figure><img src="img/boneless.jpg" alt="" /></figure>
+          <button>Agregar al Pedido</button>
+        </div>
       </div>
     </section>
   </body>

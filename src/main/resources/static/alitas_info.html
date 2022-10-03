@@ -10,7 +10,7 @@
     <body>
         <header class="header">
             <nav class="nav">
-                <a class="logo nav-link" href="index.html">Las Burgas | Acompanamientos</a>
+                <a class="logo nav-link" href="index.html">Las Burgas | Hamburguesas</a>
                 <ul class="nav-menu">
                     <li class="nav-menu-item">
                         <a href="hamburguesas.html" class="nav-menu-link">Hamburguesas</a>
@@ -33,24 +33,17 @@
             </nav>
         </header>
         <section class="principal">
-            <div class="cards-container">
-                <div class="card">
-                    <header class="card-header">
-                        <h2 class="header-name">Papas Fritas</h2>
-                        <p class="header-precio">1800</p>
-                    </header>
-                    <figure><img src="img/papas_fritas.jpg" alt="" /></figure>
-                    <a href="hamburguesa_info.html"><button>Agregar al Pedido</button></a>
-                </div>
-                <div class="card">
-                    <header class="card-header">
-                        <h2 class="header-name">Aros de Cebollas</h2>
-                        <p class="header-precio">2100</p>
-                    </header>
-                    <figure><img src="img/onion_rings.jpg" alt="" /></figure>
-                    <button>Agregar al Pedido</button>
-                </div>
-            </div>
+            <section class="formulario">
+                <form action="">
+                    <h3>Salsa</h3>
+                    BBQ<input type="radio" name="tipo-salsa" id="brioche" /><br />
+                    Bufalo<input type="radio" name="tipo-salsa" id="pretzel" /><br />
+                    <h3>Aderezo para el apio y zanahoria</h3>
+                    Blue cheese<input type="radio" name="tipo-aderezo" id="brioche" /><br />
+                    Ranch<input type="radio" name="tipo-aderezo" id="pretzel" /><br />
+                    <button>Agregar al pedido</button>
+                </form>
+            </section>
         </section>
     </body>
 </html>
